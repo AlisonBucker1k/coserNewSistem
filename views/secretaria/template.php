@@ -89,7 +89,7 @@
                             <a href="#"><i class="material-icons">text_format</i>Turmas<i class="material-icons has-sub-menu">add</i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href=">">Lista de Turmas</a>
+                                    <a href="<?php echo BASE_URL.'secretaria/listar_turmas';?>">Lista de Turmas</a>
                                 </li>
                             </ul>
                         </li>
@@ -101,13 +101,13 @@
                             <a href="#"><i class="material-icons">text_format</i>Documentos<i class="material-icons has-sub-menu">add</i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="">Adicionar Documentos</a>
+                                    <a href="<?php echo BASE_URL.'secretaria/add_doc';?>">Adicionar Documentos</a>
                                 </li>
                                 <li>
-                                    <a href="">Adicionar Documento ao Aluno</a>
+                                    <a href="<?php echo BASE_URL.'secretaria/add_doc_aluno';?>">Adicionar Documento ao Aluno</a>
                                 </li>
                                 <li>
-                                    <a href=">">Listar Documentos</a>
+                                    <a href="<?php echo BASE_URL.'secretaria/list_doc';?>">Listar Documentos</a>
                                 </li>
                             </ul>
                         </li>
@@ -119,7 +119,7 @@
                             <a href="#"><i class="material-icons">text_format</i>Matriculas<i class="material-icons has-sub-menu">add</i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="<?php echo BASE_URL.'secretaria/matriculas';?>">Matriculas</a>
+                                    <a href="<?php echo BASE_URL.'secretaria/list_matriculas';?>">Matriculas</a>
                                 </li>
                             </ul>
                         </li>
